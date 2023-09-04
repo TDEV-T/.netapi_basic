@@ -13,5 +13,8 @@ namespace webapiMySQL.Data
 
         public DbSet<Gadget> Gadgets { get; set; }
 
+
+        public DbSet<Users> Users{get;set;}
+
     }
 }
